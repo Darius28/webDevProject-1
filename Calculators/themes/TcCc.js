@@ -8,12 +8,14 @@ const darkModeLink = document.getElementsByClassName('darkMode')[0]
 
 const tables = document.getElementsByTagName('table')
 const calTable = document.getElementById('calorieresulttable')
+const main = document.getElementById('mainHead')
 
 function lightMode()
 {
     page.style.backgroundColor = "white"
     page.style.color = "black"
     changeThemeDropdownLink.style.color = 'black'
+    
 
     navbar.classList.add("navbar-light")
     navbar.classList.add("bg-light")
@@ -25,10 +27,8 @@ function lightMode()
 
     calTable.style.borderColor = "black"
     calTable.style.color = "black"
+    main.style.color = 'black'
 
-    console.log(calTable)
-    console.log(tables)
-    console.log(tables.length)
 }
 function darkMode()
 {
@@ -45,6 +45,5 @@ function darkMode()
     darkModeLink.style.outline = "-webkit-focus-ring-color auto 1px"
 
     calTable.style.color = "lightgrey"
-
-    console.log(tables.length)
+    main.style.color = 'white'
 }

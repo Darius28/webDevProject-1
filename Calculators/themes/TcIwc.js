@@ -8,12 +8,14 @@ const darkModeLink = document.getElementsByClassName('darkMode')[0]
 
 const tables = document.getElementsByTagName('table')
 const idealTable = document.getElementById('idealweightresulttable')
+const main = document.getElementById('mainHead')
 
 function lightMode()
 {
     page.style.backgroundColor = "white"
     page.style.color = "black"
     changeThemeDropdownLink.style.color = 'black'
+    main.style.color = 'black'
 
     navbar.classList.add("navbar-light")
     navbar.classList.add("bg-light")
@@ -35,6 +37,7 @@ function darkMode()
     page.style.backgroundColor = "#212529"
     page.style.color = "white"
     changeThemeDropdownLink.style.color = 'white'
+    main.style.color = 'white'
 
     navbar.classList.remove("navbar-light")
     navbar.classList.remove("bg-light")
