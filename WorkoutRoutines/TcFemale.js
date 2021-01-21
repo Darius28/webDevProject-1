@@ -8,7 +8,6 @@ const darkModeLink = document.getElementsByClassName('darkMode')[0]
 
 const tables = document.getElementsByTagName('table')
 const card = document.getElementsByClassName('WOholder')
-const male = document.getElementsByClassName('maleWOtext')
 
 function lightMode()
 {
@@ -24,21 +23,17 @@ function lightMode()
     lightModeLink.style.outline = "-webkit-focus-ring-color auto 1px"
     darkModeLink.style.outline = "none"
 
-    for(var i = 0; i < male.length; i ++)
-    {
-        male[i].style.color = "black"
-    }
-
     for(var i = 0; i < card.length; i++)
     {
         card[i].style.backgroundColor = "white"
         card[i].style.border = "1px solid black"
+        card[i].style.color = "black"
     }
 }
 function darkMode()
 {
     page.style.backgroundColor = "#212529"
-    page.style.color = "lightgray"
+    page.style.color = "white"
     changeThemeDropdownLink.style.color = 'white'
 
     navbar.classList.remove("navbar-light")
@@ -49,15 +44,11 @@ function darkMode()
     lightModeLink.style.outline = "none"
     darkModeLink.style.outline = "-webkit-focus-ring-color auto 1px"
 
-    for(var i = 0; i < male.length; i ++)
-    {
-        male[i].style.color = "lightgray"
-    }
-
     for(var i = 0; i < card.length; i++)
     {
         card[i].style.backgroundColor = "#212529"
         card[i].style.border = "1px solid white"
+        card[i].style.color = "lightgray"
     }
 
     console.log(tables.length)
