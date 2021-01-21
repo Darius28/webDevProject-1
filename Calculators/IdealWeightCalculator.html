@@ -114,7 +114,7 @@
 
         <div style="display: flex;" id="maintainancecalories">
             <label id="mainHead"
-                style="background-color:darkgoldenrod; padding: 20px; border-radius: 5px; text-align: center; margin: auto;">
+            style="background-color:burlywood;  padding: 20px;  font-size:x-large; font-weight: bold; border: 3px solid black; border-radius: 5px ; text-align: center; margin: auto;">
                 Calculate your Ideal weight here!
             </label>
         </div><br>
@@ -157,17 +157,17 @@
             calories to
             consume each day to maintain, lose, or gain weight at a chosen rate. </p>
 
-        <table id="idealweightresulttable" style="display: none; width: 90%; margin: auto;" class="table">
+        <table id="idealweightresulttable" style="display: none;  margin: auto;" class="table">
             <tbody>
 
                 <tr>
-                    <th>
+                    <th style="width: 20%; width: auto;">
                         <h4>Method</h4>
                     </th>
-                    <th>
+                    <th colspan="2" style="width: 30%; text-align: center;">
                         <h4>Ideal weight</h4>
                     </th>
-                    <td></td>
+                    
                 </tr>
 
                 <tr>
@@ -176,7 +176,7 @@
                         <h6>(1983)</h6>
                     </th>
                     <td class="res" id="Robinson"></td>
-                    <td class="BFformula-table" style="margin-left: 0px">kgs</td>
+                    <td class="BFformula-table" style="margin-left: 0px;">kgs</td>
                 </tr>
 
                 <tr>
@@ -197,7 +197,7 @@
                     <td class="BFformula-table" style="margin-left: 0px">kgs</td>
                 </tr>
 
-                <tr>
+                <tr class="tablebase">
                     <th>
                         <h4>Hamwi</h4>
                         <h6>(1964)</h6>
@@ -210,25 +210,27 @@
         <hr />
         <div>
         <h3>How Much Should I Weigh?</h3>
-        <p>Most everyone has at some point tried to lose weight, or at least known somebody who has. This is largely due
-            to the perception of an "ideal" body weight, which is often based on what we see promoted through various
-            media such as social media, TV, movies, magazines, etc. Although ideal body weight (IBW) today is sometimes
-            based on perceived visual appeal, IBW was actually introduced to estimate dosages for medical use, and the
-            formulas that calculate it are not at all related to how a person looks at a given weight. It has since been
-            determined that the metabolism of certain drugs is more based on IBW than it is total body weight. Today,
-            IBW is also used widely throughout sports, since many sports classify people based on their body weight.</p>
-        <p>Note that IBW is not a perfect measurement. It does not consider the percentages of body fat and muscle in a
-            person's body. This means that it is possible for highly fit, healthy athletes to be considered overweight
-            based on their IBW. This is why IBW should be considered with the perspective that it is an imperfect
-            measure and not necessarily indicative of health, or a weight that a person should necessarily strive
-            toward; it is possible to be over or under your "IBW" and be perfectly healthy.</p>
-        <p>How much a person should weigh is not an exact science. It is highly dependent on each individual. Thus far,
-            there is no measure, be it IBW, body mass index (BMI), or any other that can definitively state how much a
-            person should weigh to be healthy. They are only references, and it's more important to adhere to making
-            healthy life choices such as regular exercise, eating a variety of unprocessed foods, getting enough sleep,
-            etc. than it is to chase a specific weight based on a generalized formula.</p>
-        <p>That being said, many factors can affect the ideal weight; the major factors are listed below. Other factors
-            include health conditions, fat distribution, progeny, etc.</p>
+        <div class="textpara">
+            <p>Most everyone has at some point tried to lose weight, or at least known somebody who has. This is largely due
+                to the perception of an "ideal" body weight, which is often based on what we see promoted through various
+                media such as social media, TV, movies, magazines, etc. Although ideal body weight (IBW) today is sometimes
+                based on perceived visual appeal, IBW was actually introduced to estimate dosages for medical use, and the
+                formulas that calculate it are not at all related to how a person looks at a given weight. It has since been
+                determined that the metabolism of certain drugs is more based on IBW than it is total body weight. Today,
+                IBW is also used widely throughout sports, since many sports classify people based on their body weight.</p>
+            <p>Note that IBW is not a perfect measurement. It does not consider the percentages of body fat and muscle in a
+                person's body. This means that it is possible for highly fit, healthy athletes to be considered overweight
+                based on their IBW. This is why IBW should be considered with the perspective that it is an imperfect
+                measure and not necessarily indicative of health, or a weight that a person should necessarily strive
+                toward; it is possible to be over or under your "IBW" and be perfectly healthy.</p>
+            <p>How much a person should weigh is not an exact science. It is highly dependent on each individual. Thus far,
+                there is no measure, be it IBW, body mass index (BMI), or any other that can definitively state how much a
+                person should weigh to be healthy. They are only references, and it's more important to adhere to making
+                healthy life choices such as regular exercise, eating a variety of unprocessed foods, getting enough sleep,
+                etc. than it is to chase a specific weight based on a generalized formula.</p>
+            <p>That being said, many factors can affect the ideal weight; the major factors are listed below. Other factors
+                include health conditions, fat distribution, progeny, etc.</p>
+        </div>
 
         <p><b>Age</b></p>
         <p>In theory, age shouldn't be a large determinant of a IBW past the ages of 14-15 for girls and 16-17 for boys,
@@ -248,48 +250,11 @@
         <p>The taller the person, the more muscle mass and body fat they have, which results in more weight. A male at a
             similar height to a female should weigh about 10-20% heavier.</p>
 
-        <p><b>Body Frame Size</b></p>
-        <p>Body frame size is another factor that can have a significant impact on the measurement of ideal weight. Body
-            frame size is typically categorized as small, medium, or large boned. It is measured based on the
-            circumference of a person's wrist in relation to their height, as shown below.</p>
-        <p>For women:</p>
-        <ul>
-            <li>Height under 5'2"
-                <ul>
-                    <li>Small boned = wrist size less than 5.5"</li>
-                    <li>Medium boned = wrist size 5.5" to 5.75"</li>
-                    <li>Large boned = wrist size over 5.75"</li>
-                </ul>
-            </li>
-            <li>Height between 5'2" and 5' 5"
-                <ul>
-                    <li>Small boned = wrist size less than 6"</li>
-                    <li>Medium boned = wrist size 6" to 6.25"</li>
-                    <li>Large boned = wrist size over 6.25"</li>
-                </ul>
-            </li>
-            <li>Height over 5' 5"
-                <ul>
-                    <li>Small boned = wrist size less than 6.25"</li>
-                    <li>Medium boned = wrist size 6.25" to 6.5"</li>
-                    <li>Large boned = wrist size over 6.5"</li>
-                </ul>
-            </li>
-        </ul>
-        <p>For men:</p>
-        <ul>
-            <li>Height over 5' 5"<ul>
-                    <li>Small boned = wrist size 5.5" to 6.5"</li>
-                    <li>Medium boned = wrist size 6.5" to 7.5"</li>
-                    <li>Large boned = wrist size over 7.5"</li>
-                </ul>
-            </li>
-        </ul>
-        <p>A person who is large boned will naturally weigh more than someone who is small boned, even at the same
-            height, making body frame size a factor that can affect measurements such as IBW and BMI.</p>
+       
 
 
         <h3>Formulas for Finding the Ideal Weight</h3>
+      <div class="textpara">
         <p>IBW formulas were developed mainly to facilitate drug dosage calculations. All of the formulas, have the same
             format of a base weight given a height of 5 feet, with a set weight increment added per inch over the height
             of 5 feet. For example, if you are a 5'10" male estimating your ideal weight with the Devine formula, you
@@ -297,58 +262,67 @@
         <p>The formulas differ in the values used based on the research of the scientists involved in their development,
             and their findings. The Devine formula is the most widely used formula for the measurement of IBW.</p>
 
-        <p><b>G. J. Hamwi Formula (1964)</b></p>
-        <table  align="center">
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Male:</td>
-                <td class="BFformula-table" >48.0 kg + 2.7 kg per inch over 5 feet</td>
+       <div class="textpara" style="width: 90%; margin: auto; margin-bottom: 40px; ">
+        <p style="font-size: 25px; font-weight: normal; margin-left: 13%;"><b>G. J. Hamwi Formula (1964)</b></p>
+        <table  align="center" >
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Male:</td>
+                <td class="BFformula-table" style="border: 0px" >48.0 kg + 2.7 kg per inch over 5 feet</td>
             </tr>
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Female:</td>
-                <td class="BFformula-table" >45.5 kg + 2.2 kg per inch over 5 feet</td>
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Female:</td>
+                <td class="BFformula-table" style="border: 0px" >45.5 kg + 2.2 kg per inch over 5 feet</td>
             </tr>
         </table>
         <p>Invented for medicinal dosage purposes.</p>
+       </div>
 
-        <p><b>B. J. Devine Formula (1974)</b></p>
-        <table  align="center">
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Male:</td>
-                <td class="BFformula-table" >50.0 kg + 2.3 kg per inch over 5 feet</td>
+        <div class="textpara"  style="width: 90%; margin: auto; margin-bottom: 40px; ">
+            <p style="font-size: 25px; font-weight: 10px; margin-left: 13%;"><b>B. J. Devine Formula (1974)</b></p>
+        <table  align="center" >
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Male:</td>
+                <td class="BFformula-table" style="border: 0px" >50.0 kg + 2.3 kg per inch over 5 feet</td>
             </tr>
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Female:</td>
-                <td class="BFformula-table" >45.5 kg + 2.3 kg per inch over 5 feet</td>
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Female:</td>
+                <td class="BFformula-table" style="border: 0px" >45.5 kg + 2.3 kg per inch over 5 feet</td>
             </tr>
         </table>
         <p>Similar to the Hamwi Formula, it was originally intended as a basis for medicinal dosages based on weight and
             height. Over time, the formula became a universal determinant of IBW.</p>
+        </div>
 
-        <p><b>J. D. Robinson Formula (1983)</b></p>
-        <table  align="center">
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Male:</td>
-                <td class="BFformula-table" >52 kg + 1.9 kg per inch over 5 feet</td>
+        <div class="textpara" style="width: 90%; margin: auto; margin-bottom: 40px; ">
+            <p style="font-size: 25px; font-weight: 10px; margin-left: 13%;"><b>J. D. Robinson Formula (1983)</b></p>
+        <table  align="center" >
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Male:</td>
+                <td class="BFformula-table" style="border: 0px" >52 kg + 1.9 kg per inch over 5 feet</td>
             </tr>
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Female:</td>
-                <td class="BFformula-table" >49 kg + 1.7 kg per inch over 5 feet</td>
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Female:</td>
+                <td class="BFformula-table" style="border: 0px" >49 kg + 1.7 kg per inch over 5 feet</td>
             </tr>
         </table>
         <p>Modification of the Devine Formula.</p>
+        </div>
 
-        <p><b>D. R. Miller Formula (1983)</b></p>
-        <table  align="center">
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Male:</td>
-                <td class="BFformula-table" >56.2 kg + 1.41 kg per inch over 5 feet</td>
+        <div class="textpara" style="width: 90%; margin: auto; margin-bottom: 40px; ">
+            <p style="font-size: 25px; font-weight: 10px; margin-left: 13%;"><b>D. R. Miller Formula (1983)</b></p>
+        <table  align="center" >
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Male:</td>
+                <td class="BFformula-table" style="border: 0px" >56.2 kg + 1.41 kg per inch over 5 feet</td>
             </tr>
-            <tr>
-                <td class="BFformula-table" style="text-align: right; padding-right: 20px;  " >Female:</td>
-                <td class="BFformula-table" >53.1 kg + 1.36 kg per inch over 5 feet</td>
+            <tr class="formulabox" style="border-radius:5px;" >
+                <td class="BFformula-table" style="text-align: right; padding-right: 20px; border: 0px  " >Female:</td>
+                <td class="BFformula-table" style="border: 0px" >53.1 kg + 1.36 kg per inch over 5 feet</td>
             </tr>
         </table>
         <p>Modification of the Devine Formula.</p>
+        </div>
+      </div>
 
         <p><b>Healthy BMI Range</b></p>
         <p>The World Health Organization's (WHO) recommended healthy BMI range is 18.5 - 25 for both male and female.

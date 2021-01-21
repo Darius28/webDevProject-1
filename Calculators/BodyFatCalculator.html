@@ -68,7 +68,7 @@
       <div class="container">
       <div style="display: flex;" id="bodyFatPercentage">
         <label id="mainHead"
-          style="background-color:darkgoldenrod; padding: 20px; border-radius: 5px; text-align: center; margin: auto;">
+          style="background-color:lightgreen;  padding: 20px;  font-size:x-large; font-weight: bold; border: 3px solid black; border-radius: 5px ; text-align: center; margin: auto;">
           Calculate your Body-fat percentage here
         </label>
       </div>
@@ -117,22 +117,22 @@
         <tbody>
           <tr>
             <th scope="row">Body Fat (U.S. Navy Method)</th>
-            <td class="BFformula-table" id="fatpercentage"></td>
+            <td class="res" id="fatpercentage"></td>
             <td class="BFformula-table">%</td>
           </tr>
           <tr>
             <th scope="row">Body Fat Category</th>
-            <td class="BFformula-table" id="fitness"></td>
+            <td class="res" id="fitness"></td>
             <td class="BFformula-table"></td>
           </tr>
           <tr>
             <th scope="row">Body Fat Mass</th>
-            <td class="BFformula-table" id="bodyfatmass"></td>
+            <td class="res" id="bodyfatmass"></td>
             <td class="BFformula-table">Kgs</td>
           </tr>
-          <tr>
+          <tr class="tablebase">
             <th scope="row">Lean Body Mass</th>
-            <td class="BFformula-table" id="leanbodymass"></td>
+            <td class="res" id="leanbodymass"></td>
             <td class="BFformula-table">Kgs</td>
           </tr>
         </tbody>
@@ -158,7 +158,7 @@
           <td class="">22-25%</td>
           <td class="">15-19%</td>
         </tr>
-        <tr>
+        <tr class="tablebase">
           <td>Obese</td>
           <td class="">30+%</td>
           <td class="">25+%</td>
@@ -193,7 +193,7 @@
           <td class="">25-31%</td>
           <td class="">18-25%</td>
         </tr>
-        <tr>
+        <tr class="tablebase">
           <td>Obese</td>
           <td class="">32+%</td>
           <td class="">25+%</td>
@@ -243,7 +243,7 @@
           <td>25.2%</td>
           <td>18.9%</td>
         </tr>
-        <tr>
+        <tr class="tablebase" >
           <td>55</td>
           <td>26.3%</td>
           <td>20.9%</td>
@@ -254,37 +254,38 @@
       <br>
       <p >
       <h3>Body Fat, Overweight, and Obesity</h3>
-      <p>The scientific term for body fat is "adipose tissue." Adipose tissue serves a number of important functions. Its
-        primary purpose is to store lipids from which the body creates energy. In addition, it secretes a number of
-        important hormones, and provides the body with some cushioning as well as insulation. </p>
-      <p>Body fat includes essential body fat and storage body fat. Essential body fat is a base level of fat that is
-        found
-        in most parts of the body. It is necessary fat that maintains life and reproductive functions. The amount of
-        essential fat differs between men and women, and is typically around 2-5% in men, and 10-13% in women. The healthy
-        range of body fat for men is typically defined as 8-19%, while the healthy range for women is 21-33%. While having
-        excess body fat can have many detrimental effects on a person's health, insufficient body fat can have negative
-        health effects of its own, and maintaining a body fat percentage below, or even at the essential body fat
-        percentage
-        range is a topic that should be discussed with a medical professional.</p>
-      <p>Storage fat is fat that accumulates in adipose tissue, be it subcutaneous fat (deep under the dermis and wrapped
-        around vital organs) or visceral fat (fat located inside the abdominal cavity, between organs), and references to
-        body fat typically refer to this type of fat. While some storage fat is ideal, excess amounts of storage fat can
-        have serious negative health implications. </p>
-      <p>Excess body fat leads to the condition of being overweight and eventually to obesity given that insufficient
-        measures are taken to curb increasing body fat. Note that being overweight does not necessarily indicate an excess
-        of body fat. A person's body weight is comprised of multiple factors including (but not limited to) body fat,
-        muscle, bone density, and water content. Thus, highly muscular people are often classified as overweight. </p>
-      <p>The rate at which body fat accumulates is different from person to person and is dependent on many factors
-        including genetic factors as well as behavioral factors such as lack of exercise and excessive food intake. Due to
-        varying factors, it can be more difficult for certain people to reduce body fat stored in the abdominal region.
-        However, managing diet and exercise has been shown to reduce stored fat. Note that both women and men store body
-        fat
-        differently and that this can change over time. After the age of 40 (or after menopause in some cases for women),
-        reduced sexual hormones can lead to excess body fat around the stomach in men, or around the buttocks and thighs
-        of
-        women. </p>
+      
+      <div class="textpara" style="background-color: rgb(233, 81, 81);">
+        <p>Body fat includes essential body fat and storage body fat. Essential body fat is a base level of fat that is
+          found
+          in most parts of the body. It is necessary fat that maintains life and reproductive functions. The amount of
+          essential fat differs between men and women, and is typically around 2-5% in men, and 10-13% in women. The healthy
+          range of body fat for men is typically defined as 8-19%, while the healthy range for women is 21-33%. While having
+          excess body fat can have many detrimental effects on a person's health, insufficient body fat can have negative
+          health effects of its own, and maintaining a body fat percentage below, or even at the essential body fat
+          percentage
+          range is a topic that should be discussed with a medical professional.</p>
+        <p>Storage fat is fat that accumulates in adipose tissue, be it subcutaneous fat (deep under the dermis and wrapped
+          around vital organs) or visceral fat (fat located inside the abdominal cavity, between organs), and references to
+          body fat typically refer to this type of fat. While some storage fat is ideal, excess amounts of storage fat can
+          have serious negative health implications. </p>
+        <p>Excess body fat leads to the condition of being overweight and eventually to obesity given that insufficient
+          measures are taken to curb increasing body fat. Note that being overweight does not necessarily indicate an excess
+          of body fat. A person's body weight is comprised of multiple factors including (but not limited to) body fat,
+          muscle, bone density, and water content. Thus, highly muscular people are often classified as overweight. </p>
+        <p>The rate at which body fat accumulates is different from person to person and is dependent on many factors
+          including genetic factors as well as behavioral factors such as lack of exercise and excessive food intake. Due to
+          varying factors, it can be more difficult for certain people to reduce body fat stored in the abdominal region.
+          However, managing diet and exercise has been shown to reduce stored fat. Note that both women and men store body
+          fat
+          differently and that this can change over time. After the age of 40 (or after menopause in some cases for women),
+          reduced sexual hormones can lead to excess body fat around the stomach in men, or around the buttocks and thighs
+          of
+          women. </p>
+      </div>
   
       <h3>Potential Complications of Excess Body Fat</h3>
+     <div class="textpara" style="background-color: rgb(39, 188, 233);">
       <p>The World Health Organization (WHO) classifies obesity as one of the leading preventable causes of death
         worldwide
         that is estimated to claim 111,909 to 365,000 deaths per year in the U.S. This has been a growing
@@ -311,6 +312,7 @@
         diabetes. As can be seen, excess visceral fat can have measurable negative impacts to a person's
         health.
       </p>
+     </div>
   
       <h3>Measuring Body Fat Percentage</h3>
       <p><u><b>U.S. Navy Method:</b></u></p>
@@ -332,95 +334,9 @@
         equations are provided, one using the U.S. customary system (USC) which uses inches, and the other using the
         International System of Units, specifically the unit of centimeters:</p>
   
-      <p><b>Body fat percentage (BFP) formula for males:</b></p>
-      <table style="padding-left: 50px;">
-        <tr>
-          <td class="BFformula-table" >USC Units:</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table"  style="padding-left:20px;">BFP = 86.010xlog<sub>10</sub>(abdomen-neck) -
-            70.041xlog<sub>10</sub>(height) + 36.76</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table" >SI, Metric Units:</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table"  style="padding-left:20px;">
-            <table cellpadding="0" cellspa">
-              <tr>
-                <td class="BFformula-table" >BFP = </td>
-                <td class="BFformula-table" >
-                  <table cellpadding="0">
-                    <tr>
-                      <td class="BFformula-table"  align="center">495</td>
-                    </tr>
-                    <tr>
-                      <td class="BFformula-table"  bgcolor="#000000" height="1"></td>
-                    </tr>
-                    <tr>
-                      <td class="BFformula-table"  align="center">1.0324 - 0.19077xlog<sub>10</sub>(waist-neck) ) +
-                        0.15456xlog<sub>10</sub>(height)</td>
-                    </tr>
-                  </table>
-                </td>
-                <td class="BFformula-table" >- 450</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
+      
   
-      <p><b>Body fat percentage (BFP) formula for females:</b></p>
-      <table style="padding-left: 50px;">
-        <tr>
-          <td class="BFformula-table" >USC Units:</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table"  style="padding-left:20px;">BFP = 163.205xlog<sub>10</sub>(waist+hip-neck) -
-            97.684x(log<sub>10</sub>(height)) + 36.76</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table" >SI, Metric Units:</td>
-        </tr>
-        <tr>
-          <td class="BFformula-table"  style="padding-left:20px;">
-            <table cellpadding="0" cellspacing="0">
-              <tr>
-                <td class="BFformula-table" >BFP = </td>
-                <td class="BFformula-table" >
-                  <table cellpadding="0">
-                    <tr>
-                      <td class="BFformula-table"  align="center">495</td>
-                    </tr>
-                    <tr>
-                      <td class="BFformula-table"  bgcolor="#000000" height="1"></td>
-                    </tr>
-                    <tr>
-                      <td class="BFformula-table"  align="center">1.29579 - 0.35004xlog<sub>10</sub>(waist+hip-neck) +
-                        0.22100xlog<sub>10</sub>(height) </td>
-                    </tr>
-                  </table>
-                </td>
-                <td class="BFformula-table" >- 450</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-  
-      <p>Note that results of these calculations are only an estimate since they are based on many different assumptions
-        to
-        make them as applicable to as many people as possible. For more accurate measurements of body fat, the use of
-        instruments such as bioelectric impedance analysis or hydrostatic density testing is necessary.</p>
-  
-      <p><b>Fat mass (FM) formula:</b></p>
-      <p style="padding-left: 50px;">
-        FM = BF x Weight
-      </p>
-      <p><b>Lean Mass (LM) formula: </b></p>
-      <p style="padding-left: 50px;">
-        LM = Weight - FM
-      </p>
+   
   
       <br>
       <p><u><b>BMI Method:</b></u></p>
