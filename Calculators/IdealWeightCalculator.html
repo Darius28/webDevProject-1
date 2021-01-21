@@ -109,14 +109,12 @@
         </div>
         <hr />
 
-        <div class="date" style="display: flex; background-color: darkgoldenrod; color: black">
-            <span style="margin: auto;" id="time"></span>
-        </div>
-        <br>
+        
+
 
         <div style="display: flex;" id="maintainancecalories">
             <label id="mainHead"
-                style="background-color:darkgrey; padding: 20px; border-radius: 5px; text-align: center; margin: auto;">
+                style="background-color:darkgoldenrod; padding: 20px; border-radius: 5px; text-align: center; margin: auto;">
                 Calculate your Ideal weight here!
             </label>
         </div><br>
@@ -128,14 +126,16 @@
                 <input type="radio" style="margin-right: 7px;" id="gender" name="gender" value="female" class="rad" />
                 <span style="margin-right: 30px;">Female</span>
             </div><br />
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="height" placeholder="name@example.com">
-                <label for="floatingInput">Enter Height (in centimeters)</label>
+            <div class="form-group">
+                <label for="floatingInput">Enter Height (cm): </label>
+                <input type="number" class="form-control" id="height">
+                
             </div>
             <br />
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="age" placeholder="name@example.com">
-                <label for="floatingInput">Enter Age</label>
+            <div class="form-group">
+                <label for="floatingInput">Enter Age: </label>
+                <input type="number" class="form-control" id="age" >
+                
             </div>
             <br />
 
