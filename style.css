@@ -1,0 +1,17 @@
+.themeChangeDropdown {
+    color: black;
+}
+
+.lightMode, .darkMode {
+    color: black;
+}
+
+.lightMode {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.lightMode:active, .darkMode:active {
+    background-color: gray;
+}
+
+
