@@ -55,4 +55,8 @@ function darkMode()
     {
         infoTable[i].style.borderColor = "lightgrey"
     }
+    textpara1.style.color='black'
+    mainHead.style.color='grey'
+    textpara2.style.color='black'
+    
 }

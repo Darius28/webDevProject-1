@@ -44,11 +44,18 @@ function darkMode()
     navbar.classList.add("navbar-dark")
     navbar.classList.add("bg-dark")
 
+   footer.style.backgroundColor='lightgrey'
+
     lightModeLink.style.outline = "none"
     darkModeLink.style.outline = "-webkit-focus-ring-color auto 1px"
 
     idealTable.style.borderColor = "white"
     idealTable.style.color = "white"
 
+    formulatab1.style.color='black'
+    formulatab2.style.color='black'
+    formulatab3.style.color='black'
+    formulatab4.style.color='black'
+    footer.style.backgroundColor='lightgrey'
     console.log(tables.length)
 }

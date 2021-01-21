@@ -28,6 +28,7 @@ function lightMode()
     calTable.style.borderColor = "black"
     calTable.style.color = "black"
     main.style.color = 'black'
+   
 
 }
 function darkMode()
@@ -46,4 +47,8 @@ function darkMode()
 
     calTable.style.color = "lightgrey"
     main.style.color = 'white'
+    mainHead.style.color='black'
+    formulabox.style.backgroundColor='darkgrey'
+    formulabox.style.color='black'
+    
 }
